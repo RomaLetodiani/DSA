@@ -1,6 +1,6 @@
 # Contributing to Data Structures and Algorithms Repository
 
-Thank you for considering contributing to this repository! Contributions are greatly appreciated, whether you're fixing a bug, improving an existing implementation, or adding a new data structure or algorithm. Your help makes this repository more valuable for everyone.
+Thank you for considering contributing to this repository! Contributions are greatly appreciated, whether you're fixing a bug, improving an existing implementation, or adding a new information, data structure or algorithm. Your help makes this repository more valuable for everyone.
 
 ## How to Contribute
 

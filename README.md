@@ -18,9 +18,17 @@ Understanding these fundamental concepts is crucial for writing efficient and op
 
 ### Strings
 
-### Lists
+- [Python](PYTHON/Data%20Structures/1.%20strings.py)
+- [JAVASCRIPT](JAVASCRIPT/Data%20Structures/1.%20Strings.js)
+
+### Lists / Arrays
+
+- [Python](PYTHON/Data%20Structures/2.%20lists.py)
+- [JAVASCRIPT](JAVASCRIPT/Data%20Structures/2.%20Arrays.js)
 
 ### Sets
+
+- [Python](PYTHON/Data%20Structures/3.%20sets.py)
 
 ## Algorithms
 

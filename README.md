@@ -8,7 +8,7 @@ This repository contains implementations and explanations of various data struct
 - [Data Structures](#data-structures)
 - [Algorithms](#algorithms)
 - [Contributing](#contributing)
-- [LICENSE](#LICENSE)
+- [License](#License)
 
 ## Introduction
 

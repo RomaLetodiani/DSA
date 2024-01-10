@@ -8,6 +8,7 @@ This repository contains implementations and explanations of various data struct
 - [Data Structures](#data-structures)
 - [Algorithms](#algorithms)
 - [Contributing](#contributing)
+- [LICENSE](#LICENSE)
 
 ## Introduction
 
@@ -15,8 +16,6 @@ This repository serves as a collection of well-documented implementations of ess
 Understanding these fundamental concepts is crucial for writing efficient and optimized code in various programming languages.
 
 ## Data Structures
-
-### Strings
 
 <details>
   <summary><h3>Strings</h3></summary>

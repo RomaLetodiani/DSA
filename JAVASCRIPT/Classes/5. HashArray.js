@@ -1,3 +1,7 @@
+// Mixing Operations: You might perform additional bitwise operations
+// (like XOR or bit shifting) between the characters to achieve
+// a better mixing of bits, ensuring a different hash code for similar strings.
+
 const myHash = (string) => {
   let hash = 0;
   for (let i = 0; i < string.length; i++) {

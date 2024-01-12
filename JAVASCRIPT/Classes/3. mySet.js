@@ -7,7 +7,7 @@ const myHash = (string) => {
   for (let i = 0; i < string.length; i++) {
     hash = (hash << 5) ^ (hash >> 27) ^ string.charCodeAt(i);
   }
-  return hash;
+  return hash & 0x7fffffff;
 };
 
 class MySet {

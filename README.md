@@ -38,6 +38,18 @@ Understanding these fundamental concepts is crucial for writing efficient and op
 - [Javascript](JAVASCRIPT/Data%20Structures/3.%20Sets.js)
 </details>
 
+<details>
+  <summary><h3>Dictionaries/Objects</h3></summary>
+
+- [Python](PYTHON/Data%20Structures/4.%20dicts.py)
+</details>
+
+<details>
+  <summary><h3>Stack</h3></summary>
+
+- [Python](PYTHON/Data%20Structures/5.%20stack.py)
+</details>
+
 ## Algorithms
 
 blank for now

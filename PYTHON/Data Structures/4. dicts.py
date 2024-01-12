@@ -3,12 +3,15 @@
 # @ - amortized O(1)
 
 # O(1)
+# Returns the number of items in the dictionary.
 # len()
 
 # O(1) @
+# Checks if a key is present in the dictionary.
 # in
 
 # O(1) @
+# Sets a new value for the specified key.
 # set with []
 
 # O(1) @

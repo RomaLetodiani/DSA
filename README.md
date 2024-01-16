@@ -4,11 +4,13 @@ This repository contains implementations and explanations of various data struct
 
 ## Table of Contents
 
-- [Introduction](#introduction)
-- [Data Structures](#data-structures)
-- [Algorithms](#algorithms)
-- [Contributing](#contributing)
-- [License](#License)
+- [Data Structures \& Algorithms](#data-structures--algorithms)
+  - [Table of Contents](#table-of-contents)
+  - [Introduction](#introduction)
+  - [Data Structures](#data-structures)
+  - [Algorithms](#algorithms)
+  - [Contributing](#contributing)
+  - [License](#license)
 
 ## Introduction
 
@@ -42,12 +44,32 @@ Understanding these fundamental concepts is crucial for writing efficient and op
   <summary><h3>Dictionaries/Objects</h3></summary>
 
 - [Python](PYTHON/Data%20Structures/4.%20dicts.py)
+- [Javascript](JAVASCRIPT/Data%20Structures/4.%20Objects.js)
 </details>
 
 <details>
   <summary><h3>Stack</h3></summary>
 
 - [Python](PYTHON/Data%20Structures/5.%20stack.py)
+- [Javascript](JAVASCRIPT/Data%20Structures/3.%20stack.js)
+</details>
+
+<details>
+  <summary><h3>Matrix</h3></summary>
+
+- [Python](PYTHON/Data%20Structures/6.%20matrix.py)
+</details>
+
+<details>
+  <summary><h3>Linked List</h3></summary>
+
+- [Python](PYTHON/Data%20Structures/7.%20linked_list.py)
+</details>
+
+<details>
+  <summary><h3>Linked List</h3></summary>
+
+- [Python](PYTHON/Data%20Structures/9.%20queue.py)
 </details>
 
 ## Algorithms

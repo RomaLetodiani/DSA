@@ -7,7 +7,6 @@ This repository contains implementations and explanations of various data struct
 - [Data Structures \& Algorithms](#data-structures--algorithms)
   - [Table of Contents](#table-of-contents)
   - [Introduction](#introduction)
-  - [Algorithms](#algorithms)
   - [Contributing](#contributing)
   - [License](#license)
 
@@ -46,49 +45,73 @@ Understanding these fundamental concepts is crucial for writing efficient and op
         </ul>
       </details>
     </li>
-    <!-- Repeat this pattern for other data structures -->
+    <li>
+      <details>
+        <summary><h3>Dictionaries/Objects</h3></summary>
+        <ul>
+          <li><a href="PYTHON/Data%20Structures/4.%20dicts.py">Python</a></li>
+          <li><a href="JAVASCRIPT/Data%20Structures/4.%20Objects.js">Javascript</a></li>
+        </ul>
+      </details>
+    </li>
+    <li>
+      <details>
+        <summary><h3>Stack</h3></summary>
+        <ul>
+          <li><a href="PYTHON/Data%20Structures/5.%20stack.py">Python</a></li>
+          <li><a href="JAVASCRIPT/Data%20Structures/5.%20stack.js">Javascript</a></li>
+        </ul>
+      </details>
+    </li>
+    <li>
+      <details>
+        <summary><h3>Matrix</h3></summary>
+        <ul>
+          <li><a href="PYTHON/Data%20Structures/6.%20matrix.py">Python</a></li>
+        </ul>
+      </details>
+    </li>
+    <li>
+      <details>
+        <summary><h3>Linked List</h3></summary>
+        <ul>
+          <li><a href="PYTHON/Data%20Structures/7.%20linked_list.py">Python</a></li>
+        </ul>
+      </details>
+    </li>
+    <li>
+      <details>
+        <summary><h3>Queue</h3></summary>
+        <ul>
+          <li><a href="PYTHON/Data%20Structures/9.%20queue.py">Python</a></li>
+        </ul>
+      </details>
+    </li>
   </ul>
 </details>
 
 <details>
-  <summary><h3>Dictionaries/Objects</h3></summary>
-
-- [Python](PYTHON/Data%20Structures/4.%20dicts.py)
-- [Javascript](JAVASCRIPT/Data%20Structures/4.%20Objects.js)
-</details>
-
-<details>
-  <summary><h3>Stack</h3></summary>
-
-- [Python](PYTHON/Data%20Structures/5.%20stack.py)
-- [Javascript](JAVASCRIPT/Data%20Structures/3.%20stack.js)
-</details>
-
-<details>
-  <summary><h3>Matrix</h3></summary>
-
-- [Python](PYTHON/Data%20Structures/6.%20matrix.py)
-</details>
-
-<details>
-  <summary><h3>Linked List</h3></summary>
-
-- [Python](PYTHON/Data%20Structures/7.%20linked_list.py)
-</details>
-
-<details>
-  <summary><h3>Linked List</h3></summary>
-
-- [Python](PYTHON/Data%20Structures/9.%20queue.py)
-</details>
-
-## Algorithms
-
-<details>
-  <summary><h3>Sorting Algorithms</h3></summary>
-
-- [Python](PYTHON/Algorithms/sorting/)
-- [Javascript](JAVASCRIPT/Algorithms/sorting/)
+  <summary><h2>Algorithms</h2></summary>
+  <ul>
+    <li>
+      <details>
+        <summary><h3>Sort Algorithms</h3></summary>
+        <ul>
+          <li><a href="PYTHON/Algorithms/sorting/">Python</a></li>
+          <li><a href="JAVASCRIPT/Algorithms/sorting/">Javascript</a></li>
+        </ul>
+      </details>
+    </li>
+    <li>
+      <details>
+        <summary><h3>Search Algorithms</h3></summary>
+        <ul>
+          <li><a href="PYTHON/Algorithms/sorting/">Python</a></li>
+          <li><a href="JAVASCRIPT/Algorithms/sorting/">Javascript</a></li>
+        </ul>
+      </details>
+    </li>
+  </ul>
 </details>
 
 ## Contributing

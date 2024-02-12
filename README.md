@@ -7,7 +7,6 @@ This repository contains implementations and explanations of various data struct
 - [Data Structures \& Algorithms](#data-structures--algorithms)
   - [Table of Contents](#table-of-contents)
   - [Introduction](#introduction)
-  - [Data Structures](#data-structures)
   - [Algorithms](#algorithms)
   - [Contributing](#contributing)
   - [License](#license)
@@ -17,27 +16,38 @@ This repository contains implementations and explanations of various data struct
 This repository serves as a collection of well-documented implementations of essential data structures and algorithms.
 Understanding these fundamental concepts is crucial for writing efficient and optimized code in various programming languages.
 
-## Data Structures
-
 <details>
-  <summary><h3>Strings</h3></summary>
-
-- [Python](PYTHON/Data%20Structures/1.%20strings.py)
-- [Javascript](JAVASCRIPT/Data%20Structures/1.%20Strings.js)
-</details>
-
-<details>
-  <summary><h3>Lists / Arrays</h3></summary>
-
-- [Python](PYTHON/Data%20Structures/2.%20lists.py)
-- [Javascript](JAVASCRIPT/Data%20Structures/2.%20Arrays.js)
-</details>
-
-<details>
-  <summary><h3>Sets</h3></summary>
-
-- [Python](PYTHON/Data%20Structures/3.%20sets.py)
-- [Javascript](JAVASCRIPT/Data%20Structures/3.%20Sets.js)
+  <summary><h2>Data Structures</h2></summary>
+  <ul>
+    <li>
+      <details>
+        <summary><h3>Strings</h3></summary>
+        <ul>
+          <li><a href="PYTHON/Data%20Structures/1.%20strings.py">Python</a></li>
+          <li><a href="JAVASCRIPT/Data%20Structures/1.%20Strings.js">Javascript</a></li>
+        </ul>
+      </details>
+    </li>
+    <li>
+      <details>
+        <summary><h3>Lists / Arrays</h3></summary>
+        <ul>
+          <li><a href="PYTHON/Data%20Structures/2.%20lists.py">Python</a></li>
+          <li><a href="JAVASCRIPT/Data%20Structures/2.%20Arrays.js">Javascript</a></li>
+        </ul>
+      </details>
+    </li>
+    <li>
+      <details>
+        <summary><h3>Sets</h3></summary>
+        <ul>
+          <li><a href="PYTHON/Data%20Structures/3.%20sets.py">Python</a></li>
+          <li><a href="JAVASCRIPT/Data%20Structures/3.%20Sets.js">Javascript</a></li>
+        </ul>
+      </details>
+    </li>
+    <!-- Repeat this pattern for other data structures -->
+  </ul>
 </details>
 
 <details>

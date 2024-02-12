@@ -21,6 +21,18 @@ const bubbleSort = (arr) => {
   }
 };
 
+// Measure execution time
+const startTime = performance.now();
 const arr = arr25K;
 bubbleSort(arr);
-console.log(arr);
+const sortedArrayString = (arr) => {
+  return arr.join(', ');
+};
+const endTime = performance.now();
+
+// It will take at least 0.7 seconds to sort the arr25K
+const timeTakenInSeconds = (endTime - startTime) / 1000;
+
+console.log(sortedArrayString(arr));
+console.log('Length --> ', arr.length);
+console.log('Time taken:', timeTakenInSeconds, 'seconds');

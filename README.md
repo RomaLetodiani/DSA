@@ -16,7 +16,7 @@ This repository serves as a collection of well-documented implementations of ess
 Understanding these fundamental concepts is crucial for writing efficient and optimized code in various programming languages.
 
 <details>
-  <summary><h2>Data Structures</h2></summary>
+  <summary><h2 id='data-structures'>Data Structures</h2></summary>
   <ul>
     <li>
       <details>
@@ -91,14 +91,14 @@ Understanding these fundamental concepts is crucial for writing efficient and op
 </details>
 
 <details>
-  <summary><h2>Algorithms</h2></summary>
+  <summary><h2 id='algorithms'>Algorithms</h2></summary>
   <ul>
     <li>
       <details>
         <summary><h3>Sort Algorithms</h3></summary>
         <ul>
-          <li><a href="PYTHON/Algorithms/sorting/">Python</a></li>
-          <li><a href="JAVASCRIPT/Algorithms/sorting/">Javascript</a></li>
+          <li><a href="PYTHON/Algorithms/Sort/">Python</a></li>
+          <li><a href="JAVASCRIPT/Algorithms/Sort/">Javascript</a></li>
         </ul>
       </details>
     </li>
@@ -106,8 +106,8 @@ Understanding these fundamental concepts is crucial for writing efficient and op
       <details>
         <summary><h3>Search Algorithms</h3></summary>
         <ul>
-          <li><a href="PYTHON/Algorithms/sorting/">Python</a></li>
-          <li><a href="JAVASCRIPT/Algorithms/sorting/">Javascript</a></li>
+          <li><a href="PYTHON/Algorithms/Search/">Python</a></li>
+          <li><a href="JAVASCRIPT/Algorithms/Search/">Javascript</a></li>
         </ul>
       </details>
     </li>

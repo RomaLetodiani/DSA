@@ -74,7 +74,12 @@ Understanding these fundamental concepts is crucial for writing efficient and op
 
 ## Algorithms
 
-blank for now
+<details>
+  <summary><h3>Sorting Algorithms</h3></summary>
+
+- [Python](PYTHON/Algorithms/sorting/)
+- [Javascript](JAVASCRIPT/Algorithms/sorting/)
+</details>
 
 ## Contributing
 

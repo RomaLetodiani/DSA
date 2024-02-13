@@ -15,15 +15,16 @@ This repository contains implementations and explanations of various data struct
 This repository serves as a collection of well-documented implementations of essential data structures and algorithms.
 Understanding these fundamental concepts is crucial for writing efficient and optimized code in various programming languages.
 
-<details>
-  <summary><h2 id='data-structures'>Data Structures</h2></summary>
+<details> 
+  <summary><h2>>Data Structures</h2></summary>
   <ul>
     <li>
       <details>
         <summary><h3>Strings</h3></summary>
         <ul>
           <li><a href="PYTHON/Data%20Structures/1.%20strings.py">Python</a></li>
-          <li><a href="JAVASCRIPT/Data%20Structures/1.%20Strings.js">Javascript</a></li>
+          <li><a href="JAVASCRIPT/Data%20Structures/1.%20Strings.js">JavaScript</a></li>
+          <li><a href="TYPESCRIPT/Data%20Structures/1.%20Strings.ts">TypeScript</a></li>
         </ul>
       </details>
     </li>
@@ -32,7 +33,8 @@ Understanding these fundamental concepts is crucial for writing efficient and op
         <summary><h3>Lists / Arrays</h3></summary>
         <ul>
           <li><a href="PYTHON/Data%20Structures/2.%20lists.py">Python</a></li>
-          <li><a href="JAVASCRIPT/Data%20Structures/2.%20Arrays.js">Javascript</a></li>
+          <li><a href="JAVASCRIPT/Data%20Structures/2.%20Arrays.js">JavaScript</a></li>
+          <li><a href="TYPESCRIPT/Data%20Structures/2.%20Arrays.ts">TypeScript</a></li>
         </ul>
       </details>
     </li>
@@ -41,7 +43,8 @@ Understanding these fundamental concepts is crucial for writing efficient and op
         <summary><h3>Sets</h3></summary>
         <ul>
           <li><a href="PYTHON/Data%20Structures/3.%20sets.py">Python</a></li>
-          <li><a href="JAVASCRIPT/Data%20Structures/3.%20Sets.js">Javascript</a></li>
+          <li><a href="JAVASCRIPT/Data%20Structures/3.%20Sets.js">JavaScript</a></li>
+          <li><a href="TYPESCRIPT/Data%20Structures/1.%20Sets.ts">TypeScript</a></li>
         </ul>
       </details>
     </li>
@@ -50,7 +53,8 @@ Understanding these fundamental concepts is crucial for writing efficient and op
         <summary><h3>Dictionaries/Objects</h3></summary>
         <ul>
           <li><a href="PYTHON/Data%20Structures/4.%20dicts.py">Python</a></li>
-          <li><a href="JAVASCRIPT/Data%20Structures/4.%20Objects.js">Javascript</a></li>
+          <li><a href="JAVASCRIPT/Data%20Structures/4.%20Objects.js">JavaScript</a></li>
+          <li><a href="TYPESCRIPT/Data%20Structures/4.%20Objects.ts">TypeScript</a></li>
         </ul>
       </details>
     </li>
@@ -60,6 +64,7 @@ Understanding these fundamental concepts is crucial for writing efficient and op
         <ul>
           <li><a href="PYTHON/Data%20Structures/5.%20stack.py">Python</a></li>
           <li><a href="JAVASCRIPT/Data%20Structures/5.%20stack.js">Javascript</a></li>
+          <li><a href="TYPESCRIPT/Data%20Structures/5.%20Stack.ts">TypeScript</a></li>
         </ul>
       </details>
     </li>
@@ -91,7 +96,7 @@ Understanding these fundamental concepts is crucial for writing efficient and op
 </details>
 
 <details>
-  <summary><h2 id='algorithms'>Algorithms</h2></summary>
+  <summary><h2>Algorithms</h2></summary>
   <ul>
     <li>
       <details>
@@ -99,6 +104,7 @@ Understanding these fundamental concepts is crucial for writing efficient and op
         <ul>
           <li><a href="PYTHON/Algorithms/Sort/">Python</a></li>
           <li><a href="JAVASCRIPT/Algorithms/Sort/">Javascript</a></li>
+          <li><a href="TYPESCRIPT/Algorithms/Search/">Javascript</a></li>
         </ul>
       </details>
     </li>
@@ -107,7 +113,8 @@ Understanding these fundamental concepts is crucial for writing efficient and op
         <summary><h3>Search Algorithms</h3></summary>
         <ul>
           <li><a href="PYTHON/Algorithms/Search/">Python</a></li>
-          <li><a href="JAVASCRIPT/Algorithms/Search/">Javascript</a></li>
+          <li><a href="JAVASCRIPT/Algorithms/Search/">JavaScript</a></li>
+          <li><a href="TYPESCRIPT/Algorithms/Search/">TypeScript</a></li>
         </ul>
       </details>
     </li>

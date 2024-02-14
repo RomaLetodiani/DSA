@@ -16,7 +16,7 @@ This repository serves as a collection of well-documented implementations of ess
 Understanding these fundamental concepts is crucial for writing efficient and optimized code in various programming languages.
 
 <details> 
-  <summary><h2>>Data Structures</h2></summary>
+  <summary><h2>Data Structures</h2></summary>
   <ul>
     <li>
       <details>

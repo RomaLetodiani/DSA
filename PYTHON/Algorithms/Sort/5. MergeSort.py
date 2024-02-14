@@ -1,5 +1,7 @@
-from arr50K import arr50K
+from ListGeneration import listGenerator
 import time
+
+arr50K = listGenerator(50000)
 
 def merge(arr1, arr2):
     result = []

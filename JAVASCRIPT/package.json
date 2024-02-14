@@ -1,7 +1,7 @@
 {
-  "type": "module",
   "name": "dsa-javascript",
   "version": "1.0.0",
+  "description": "Data Structures and Algorithms in JavaScript",
   "scripts": {
     "test": "jest",
     "lint": "eslint ."

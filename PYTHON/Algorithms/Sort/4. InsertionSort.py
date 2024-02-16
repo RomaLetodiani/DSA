@@ -1,9 +1,7 @@
-from arr50K import arr50K
+from ListGeneration import listGenerator
 import time
 
-length = len(arr50K)
-middle = length // 2
-arr25K = arr50K[:middle]
+arr10K = listGenerator(10000)
 
 def insertion_sort(arr):
     for i in range(1, len(arr)):
@@ -13,18 +11,19 @@ def insertion_sort(arr):
             arr[j + 1] = arr[j]
             j -= 1
         arr[j + 1] = temp
-    return arr
 
 # Record the start time
 start_time = time.time()
 
-sorted_arr = insertion_sort(arr25K)
+insertion_sort(arr10K)
 
 # Record the end time
 end_time = time.time()
 
-# It will take at least 15 seconds to sort the arr25K
+# It will take at least 2 seconds to sort the arr25K
 
-print(sorted_arr)
-print('Length --> ', len(sorted_arr))
+# if you want to visualize starting array just comment insertion_sort(arr10K) on previous lines
+print(arr10K)
+print('----------------------------------------------------------------')
+print('Length --> ', len(arr10K))
 print("Time taken:", end_time - start_time, "seconds")

@@ -25,4 +25,13 @@ describe('StringBuilder', () => {
     sb.append(longString);
     expect(sb.get_length()).toBe(100005);
   });
+
+  test('efficiency test', () => {
+    const longString = 'a'.repeat(100000);
+    const start = performance.now();
+    sb.append(longString);
+    const end = performance.now();
+    expect(sb.get_length()).toBe(100005);
+    expect(end - start).toBeLessThanOrEqual(10);
+  });
 });

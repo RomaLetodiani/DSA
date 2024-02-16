@@ -38,8 +38,10 @@ sorted_arr = merge_sort(arr50K)
 # Record the end time
 end_time = time.time()
 
-# It will take at least 0.15 seconds to sort the arr50K
+# It will take at least 0.1 seconds to sort the arr50K
 
+# if you want to visualize starting array just change arr to arr50K
 print(sorted_arr)
+print('----------------------------------------------------------------')
 print('Length --> ', len(sorted_arr))
 print("Time taken:", end_time - start_time, "seconds")

@@ -97,3 +97,36 @@ class MyObject {
 }
 
 module.exports = MyObject;
+
+const testMyObject = () => {
+  let myObject = new MyObject();
+
+  // Test adding key-value pair and retrieving value
+  myObject.set('name', 'John');
+  console.log(`name: ${myObject.get('name')}`);
+
+  // Test updating existing key-value pair
+  myObject.set('name', 'Jane');
+  console.log(`name: ${myObject.get('name')}`);
+
+  // Test returning undefined for non-existing key
+  console.log(`nonexistent: ${myObject.get('nonexistent')}`);
+
+  // Test checking if key exists
+  console.log(`includes 'name': ${myObject.includes('name')}`);
+  console.log(`includes 'nonexistent': ${myObject.includes('nonexistent')}`);
+
+  // Test removing key-value pair
+  myObject.remove('name');
+  console.log(`includes 'name' after removal: ${myObject.includes('name')}`);
+  console.log(`length after removal: ${myObject.getLength()}`);
+
+  // Test resizing buckets
+  for (let i = 0; i < 10; i++) {
+    myObject.set(`key${i}`, `value${i}`);
+  }
+  console.log(`length after resizing: ${myObject.getLength()}`);
+  console.log(`bucket size after resizing: ${myObject.buckets.length}`);
+};
+
+testMyObject();

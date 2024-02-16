@@ -1,9 +1,7 @@
-from arr50K import arr50K
+from ListGeneration import listGenerator
 import time
 
-length = len(arr50K)
-middle = length // 2
-arr25K = arr50K[:middle]
+arr5K = listGenerator(5000)
 
 def bubble_sort(arr):
     for i in range(len(arr)):
@@ -15,18 +13,18 @@ def bubble_sort(arr):
         if sorted:
             break
 
-    return arr
-
 # Record the start time
 start_time = time.time()
 
-sorted_arr = bubble_sort(arr25K)
+bubble_sort(arr5K)
 
 # Record the end time
 end_time = time.time()
 
-# It will take at least 30 seconds to sort the arr25K
+# It will take at least 1 seconds to sort the arr5K
 
-print(sorted_arr)
-print('Length --> ', len(sorted_arr))
+# if you want to visualize starting array just comment bubble_sort(arr5K) on previous lines
+print(arr5K)
+print('----------------------------------------------------------------')
+print('Length --> ', len(arr5K))
 print("Time taken:", end_time - start_time, "seconds")

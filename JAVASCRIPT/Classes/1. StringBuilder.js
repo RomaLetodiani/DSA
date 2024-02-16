@@ -48,10 +48,10 @@ function test_StringBuilder() {
   console.log(sb.get_string()); // Expected output: "Hello, World!"
 
   // Test appending a very large string and measuring efficiency
-  let longString = 'a'.repeat(100000); // Creating a large string
-  let start = performance.now(); // Start time measurement
+  const longString = 'a'.repeat(100000); // Creating a large string
+  const start = performance.now(); // Start time measurement
   sb.append(longString);
-  let end = performance.now(); // End time measurement
+  const end = performance.now(); // End time measurement
   console.log(sb.get_length()); // Expected output: 100013
   console.log(`Time taken: ${end - start} milliseconds`);
 

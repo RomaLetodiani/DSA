@@ -1,9 +1,7 @@
-from arr50K import arr50K
+from ListGeneration import listGenerator
 import time
 
-length = len(arr50K)
-middle = length // 2
-arr25K = arr50K[:middle]
+arr10K = listGenerator(10000)
 
 def selection_sort(arr):
     for i in range(len(arr)):
@@ -12,19 +10,19 @@ def selection_sort(arr):
             if arr[j] < arr[min_index]:
                 min_index = j
         arr[i], arr[min_index] = arr[min_index], arr[i]
-    return arr
-
 
 # Record the start time
 start_time = time.time()
 
-sorted_arr = selection_sort(arr25K)
+selection_sort(arr10K)
 
 # Record the end time
 end_time = time.time()
 
-# It will take at least 15 seconds to sort the arr25K
+# It will take at least 2 seconds to sort the arr10K
 
-print(sorted_arr)
-print('Length --> ', len(arr25K))
+# if you want to visualize starting array just comment selection_sort(arr10K) on previous lines
+print(arr10K)
+print('----------------------------------------------------------------')
+print('Length --> ', len(arr10K))
 print("Time taken:", end_time - start_time, "seconds")

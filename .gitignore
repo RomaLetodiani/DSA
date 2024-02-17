@@ -1,3 +1,9 @@
+# Ignore Python bytecode files
 __pycache__
 
+# Ignore Node.js dependencies
 node_modules
+
+# Ignore Visual Studio build directories
+CSHARP/bin/
+CSHARP/obj/

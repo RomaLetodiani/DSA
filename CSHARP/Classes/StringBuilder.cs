@@ -5,12 +5,13 @@ namespace CSHARP.Classes
 {
     public class StringBuilder
     {
-        private List<string> parts;
-        private int length = 0;
+        private readonly List<string> parts;
+        private int length;
 
         public StringBuilder()
         {
-            parts = new List<string>();
+            parts = [];
+            length = 0;
         }
 
         public void Append(string str)

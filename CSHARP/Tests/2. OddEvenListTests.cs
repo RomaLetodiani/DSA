@@ -61,7 +61,7 @@ namespace CSHARP.Tests
 
             // Assert
             Assert.True(100000 == list.Length(), "Appending large string should not fail and length should be 99999");
-            Assert.True(stopwatch.ElapsedMilliseconds < 100, "Appending large string should not take too long");
+            Assert.True(stopwatch.ElapsedMilliseconds < 100, "Adding 100000 numbers should not take too long");
             Assert.Equal(list.GetEvens().Count, list.GetOdds().Count);
 
         }

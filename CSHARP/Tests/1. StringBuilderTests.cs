@@ -57,7 +57,7 @@ namespace CSHARP.Tests
         {
             // Arrange
             StringBuilder sb = new();
-            Stopwatch stopwatch = new Stopwatch();
+            Stopwatch stopwatch = new();
 
             // Act
             stopwatch.Start();

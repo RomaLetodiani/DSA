@@ -5,7 +5,7 @@ describe('OddEvenArray', () => {
   let oea;
 
   beforeEach(() => {
-    oea = new OddEvenArray('Hello');
+    oea = new OddEvenArray();
     oea.add(1);
     oea.add(2);
     oea.add(3);

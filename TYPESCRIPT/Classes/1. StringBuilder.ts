@@ -33,7 +33,7 @@ export default StringBuilder;
 
 const test_StringBuilder = (): void => {
   // Initialize a StringBuilder object with a starting string
-  const sb = new StringBuilder('Hello');
+  const sb: StringBuilder = new StringBuilder('Hello');
 
   // Test appending strings and getting the length
   sb.append(', ');
@@ -50,7 +50,7 @@ const test_StringBuilder = (): void => {
   // Test appending a very large string and measuring efficiency
   const longString: string = 'a'.repeat(100000); // Creating a large string
   const start: number = performance.now(); // Start time measurement
-  for (let i = 0; i < 100000; i++) {
+  for (let i: number = 0; i < 100000; i++) {
     sb.append(longString[i]);
   }
   const end: number = performance.now(); // End time measurement

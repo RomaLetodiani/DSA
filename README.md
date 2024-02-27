@@ -123,7 +123,7 @@ Understanding these fundamental concepts is crucial for writing efficient and op
 
 ## Contributing
 
-Contributions are welcome! If you'd like to contribute by adding new implementations, improving existing ones, or suggesting enhancements, please follow the guidelines outlined in [CONTRIBUTING.md](CONTRIBUTING.md).
+Contributions are welcome! If you'd like to contribute by adding new implementations, improving existing ones, or suggesting enhancements, please follow the guidelines outlined in [CONTRIBUTING](CONTRIBUTING.md).
 
 ## License
 

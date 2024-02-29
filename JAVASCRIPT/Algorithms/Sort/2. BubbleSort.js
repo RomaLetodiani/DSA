@@ -1,5 +1,6 @@
 const generateArray = require('./ArrayGeneration');
 
+// Generates an array of 25000 numbers from -20000 to 20000
 const arr25K = generateArray(25000);
 
 const bubbleSort = (arr) => {

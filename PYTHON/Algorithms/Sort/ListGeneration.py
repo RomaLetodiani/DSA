@@ -11,13 +11,14 @@ def listGenerator(size = 10000, min = -20000, max = 20000):
     """
     return [random.randint(min, max) for _ in range(size)]
 
-
-# Example usage
-# Generates a list of 50000 random numbers from -1000000 to 1000000
-arr_50k = listGenerator(50000, -1000000, 1000000)
-print(arr_50k)
-print('--------------------------------------------------------')
-print('List Length:', len(arr_50k))
+# Checking if __name__ == "__main__" to prevent running the example usage in other files
+if __name__ == "__main__":
+    # Example usage
+    # Generates a list of 50000 random numbers from -1000000 to 1000000
+    arr_50k = listGenerator(50000, -1000000, 1000000)
+    print(arr_50k)
+    print('--------------------------------------------------------')
+    print('List Length:', len(arr_50k))
 
 # Run this command in the terminal
 # py .\Algorithms\Sort\ListGeneration.py

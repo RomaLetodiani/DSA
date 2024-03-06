@@ -1,3 +1,11 @@
+/**
+ * Generates an array of random integers within a specified range.
+ * @param {number} [size=10000] - The size of the array to be generated.
+ * @param {number} [min=-20000] - The minimum value of the random integers to be generated.
+ * @param {number} [max=20000] - The maximum value of the random integers to be generated.
+ * @returns {number[]} An array of random integers within the specified range.
+ */
+
 const generateArray = (size = 10000, min = -20000, max = 20000) => {
   return Array.from({ length: size }, () => Math.floor(Math.random() * (max - min + 1)) + min);
 };

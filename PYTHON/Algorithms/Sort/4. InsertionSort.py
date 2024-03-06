@@ -25,5 +25,6 @@ end_time = time.time()
 # if you want to visualize starting array just comment insertion_sort(arr10K) on previous lines
 print(arr10K)
 print('----------------------------------------------------------------')
+print('// Stats of Insertion Sort //')
 print('Length --> ', len(arr10K))
 print("Time taken:", end_time - start_time, "seconds")

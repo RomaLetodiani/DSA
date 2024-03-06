@@ -43,5 +43,6 @@ end_time = time.time()
 # if you want to visualize starting array just change arr to arr50K
 print(sorted_arr)
 print('----------------------------------------------------------------')
+print('// Stats of Merge Sort //')
 print('Length --> ', len(sorted_arr))
 print("Time taken:", end_time - start_time, "seconds")

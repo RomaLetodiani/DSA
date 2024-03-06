@@ -26,5 +26,6 @@ end_time = time.time()
 # if you want to visualize starting array just comment bubble_sort(arr5K) on previous lines
 print(arr5K)
 print('----------------------------------------------------------------')
+print('// Stats of Bubble Sort //')
 print('Length --> ', len(arr5K))
 print("Time taken:", end_time - start_time, "seconds")

@@ -46,13 +46,10 @@ class MySet {
     if (!this.has(string)) {
       return;
     }
-    this.buckets[this.#getBucketIndex(string)].splice(
-      this.buckets[this.#getBucketIndex(string)].indexOf(string),
-      1
-    );
+    this.buckets[this.#getBucketIndex(string)].splice(this.buckets[this.#getBucketIndex(string)].indexOf(string), 1);
     this.length--;
     if (this.length < this.buckets.length / 2 && this.buckets.length > 4) {
-      this.#resize(len(this.buckets) / 2);
+      this.#resize(this.buckets.length / 2);
     }
   }
 
@@ -120,7 +117,7 @@ const testMySet = () => {
 
   console.log("has 'world' ->", mySet.has('world')); // true
 
-  console.log("get 'how' ->", mySet.get('how')); // true
+  console.log("get 'how' ->", mySet.get('how')); // how
 
   mySet.delete('world');
   console.log('values after delete ->', mySet.values()); // [ 'are', 'you', 'hello', 'how' ]

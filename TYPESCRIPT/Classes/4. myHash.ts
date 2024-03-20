@@ -10,19 +10,29 @@ const myHash = (string: string) => {
   return hash & 0x7fffffff;
 };
 
+export default myHash;
+
 const test_myHash = () => {
-  const hash: number = myHash('hello');
-  console.log(`Hash of 'hello': ${hash}`);
+  const hashMap = new Map();
 
-  const hash1: number = myHash('olleh');
-  console.log(`Hash of 'olleh': ${hash1}`);
+  for (let i = 0; i < 100000; i++) {
+    const randomString = Math.random().toString(36).substring(2); // Generate a random string
+    const hash = myHash(randomString);
 
-  console.log(`Collision check: ${hash === hash1 ? 'Collision!' : 'No collision'}`);
+    if (hashMap.has(hash)) {
+      console.log(
+        `Collision found on attempt ${i + 1} for hash value ${hash}: ${hashMap.get(hash)} and ${randomString}`
+      );
+      return;
+    }
+
+    hashMap.set(hash, randomString);
+  }
+
+  console.log('No collision found after 100,000 attempts');
 };
 
 if (require.main === module) {
   // This block will only execute when the script is run directly
   test_myHash();
 }
-
-export default myHash;

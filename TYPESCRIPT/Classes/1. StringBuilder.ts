@@ -62,4 +62,7 @@ const test_StringBuilder = (): void => {
 };
 
 // Run the tests
-test_StringBuilder();
+if (require.main === module) {
+  // This block will only execute when the script is run directly
+  test_StringBuilder();
+}

@@ -67,6 +67,8 @@ class HashArray {
   }
 }
 
+export default HashArray;
+
 const test_HashArray = () => {
   let ha = new HashArray();
 
@@ -113,4 +115,8 @@ const test_HashArray = () => {
   ha.remove('hello'); // does not goes on error if we try to remove non containing elem
 };
 
-test_HashArray();
+// Run the tests
+if (require.main === module) {
+  // This block will only execute when the script is run directly
+  test_HashArray();
+}

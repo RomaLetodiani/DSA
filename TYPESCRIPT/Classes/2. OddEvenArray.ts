@@ -32,7 +32,7 @@ class OddEvenArray {
   }
 }
 
-module.exports = OddEvenArray;
+export default OddEvenArray;
 
 function test_OddEvenArray(): void {
   // Initialize an OddEvenArray object
@@ -54,4 +54,7 @@ function test_OddEvenArray(): void {
 }
 
 // Run the tests
-test_OddEvenArray();
+if (require.main === module) {
+  // This block will only execute when the script is run directly
+  test_OddEvenArray();
+}

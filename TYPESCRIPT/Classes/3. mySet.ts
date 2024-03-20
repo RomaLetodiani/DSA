@@ -95,7 +95,7 @@ class MySet {
   }
 }
 
-module.exports = MySet;
+export default MySet;
 
 const testMySet = () => {
   const mySet = new MySet();
@@ -127,4 +127,8 @@ const testMySet = () => {
   console.log('get "how" ->', mySet.get('how')); // undefined
 };
 
-testMySet();
+// Run the tests
+if (require.main === module) {
+  // This block will only execute when the script is run directly
+  testMySet();
+}

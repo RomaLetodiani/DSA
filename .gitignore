@@ -5,5 +5,5 @@ __pycache__
 node_modules
 
 # Ignore Visual Studio build directories
-CSHARP/bin/
-CSHARP/obj/
+*bin
+*obj

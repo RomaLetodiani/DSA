@@ -92,6 +92,54 @@ Understanding these fundamental concepts is crucial for writing efficient and op
         </ul>
       </details>
     </li>
+    <li>
+      <details>
+        <summary><h3>Doubly Linked List</h3></summary>
+        <ul>
+          <li><a href="PYTHON/Data%20Structures/13.%20doubly_linked_list.py">Python</a></li>
+        </ul>
+      </details>
+    </li>
+    <li>
+      <details>
+        <summary><h3>Binary Tree</h3></summary>
+        <ul>
+          <li><a href="PYTHON/Data%20Structures/15.%20binary_tree.py">Python</a></li>
+        </ul>
+      </details>
+    </li>
+    <li>
+      <details>
+        <summary><h3>Binary Search Tree</h3></summary>
+        <ul>
+          <li><a href="PYTHON/Data%20Structures/16.%20binary_search_tree.py">Python</a></li>
+        </ul>
+      </details>
+    </li>
+    <li>
+      <details>
+        <summary><h3>Trie</h3></summary>
+        <ul>
+          <li><a href="PYTHON/Data%20Structures/17.%20Trie.py">Python</a></li>
+        </ul>
+      </details>
+    </li>
+    <li>
+      <details>
+        <summary><h3>Graph</h3></summary>
+        <ul>
+          <li><a href="PYTHON/Data%20Structures/18.%20graphs.py">Python</a></li>
+        </ul>
+      </details>
+    </li>
+    <li>
+      <details>
+        <summary><h3>Heap</h3></summary>
+        <ul>
+          <li><a href="PYTHON/Data%20Structures/19.%20Heap.py">Python</a></li>
+        </ul>
+      </details>
+    </li>
   </ul>
 </details>
 
